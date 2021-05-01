@@ -1,1 +1,1 @@
-deployed link:  https://evernote-roc8.netlify.app/
+deployed link:  https://evernote-2a416.web.app
