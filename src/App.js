@@ -24,7 +24,6 @@ class App extends React.Component {
           data['id'] = doc.id;
           return data;
         });
-        console.log(notes);
         this.setState({ notes: notes });
       });
   };

@@ -16,7 +16,7 @@ class SidebarComponent extends React.Component {
 
   newNoteBtnClick = () => {
     this.setState({ title: null, addingNote: !this.state.addingNote });
-    console.log('new note button clicked');
+    
   };
 
   updateTitle = (txt) => {
@@ -31,7 +31,6 @@ class SidebarComponent extends React.Component {
   };
   deleteNote = (note) => {
     this.props.deleteNote(note);
-    console.log('note deleted');
   };
 
   render() {

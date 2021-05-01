@@ -1,7 +1,7 @@
 export default function debounce(a, b, c) {
   var d;
   var e;
-  return function () {
+  return  () =>{
     function h() {
       d = null;
       c || (e = a.apply(f, g));

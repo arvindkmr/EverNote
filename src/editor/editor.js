@@ -14,7 +14,6 @@ class EditorComponent extends React.Component {
       },
       this.state.id
     );
-    console.log('Updating database');
   }, 1500);
 
   constructor() {
